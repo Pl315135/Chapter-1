@@ -25,6 +25,7 @@ System.out.println(" You ordered " + eggsTotal + " Eggs. Thats "
 		+ dozenEggs + "dozen eggs at " + dozenEggCost + "per dozen and " + singleEgg +
 		"loose eggs at " + singleEggCost + "cents each for a total of "
 		+ eggsCost + ".");
+		
 
 
 
