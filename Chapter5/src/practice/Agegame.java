@@ -7,12 +7,12 @@
 		{
 			// TODO Auto-generated method stub
 			int usersAge;
-			String result;
+			String result = null;
 			Scanner input = new Scanner(System.in);
 			
 			System.out.println("Please enter your age to consulted");
 			usersAge = input.nextInt();
-			if(usersAge >= 12)
+			if(usersAge <= 12)
 			{
 				result = "you are a child!";
 			}
@@ -24,8 +24,8 @@
 			{
 				result = "Get a job,you bum";
 			}
-			displayMessage()
-		
+			
+		System.out.println(result);
 		}
 	
 	}
