@@ -13,7 +13,7 @@
 			
 			computerSecret = (int)(Math.random() * 10 + 1);
 			
-			Scanner input = new Scanner(System.in);
+			 Scanner input = new Scanner(System.in);
 			
 			do
 			{
