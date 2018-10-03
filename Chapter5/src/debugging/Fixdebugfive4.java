@@ -6,26 +6,36 @@
 		// TODO Auto-generated method stub
 		{
 			int one, two, three, four;
-		      String str, output;
-		      str == JOptionPane.showInputDialog(null,"Enter an integer");
-		      one == Integer.parseInt(str);
-		      str == JOptionPane.showInputDialog(null,"Enter an integer");
-		      two == Integer.parseInt(STR);
-		      str == JOptionPane.showInputDialog(null,"Enter an integer");
-		      three == Integer.parseInt(str);
-		      str == JOptionPane.showInputDialog(null,"Enter an integer");
+		      String str, output = null;
+		      str = JOptionPane.showInputDialog(null,"Enter an integer");
+		      one = Integer.parseInt(str);
+		      str = JOptionPane.showInputDialog(null,"Enter an integer");
+		      two = Integer.parseInt(str);
+		      str = JOptionPane.showInputDialog(null,"Enter an integer");
+		      three = Integer.parseInt(str);
+		      str = JOptionPane.showInputDialog(null,"Enter an integer");
 		      four = Integer.parseInt(str);
-		      if(one > two & one > three & one > four);
-		         output = "Highest is " + one;
-		      else
-		         if(two > one & two > three && two > four);
-		            output = "Highest is " + two;
-		         else
-		           if(three > one && three > two && three > four)
-		              output = "Highest is " + three;
-		      else output = "Highest is " + four;
-		      JOptionPane.showMessageDialog(null, output);
-	
+		      
+		      if(one > two & one > three & one > four)
+		      {
+		    	  output = "Highest is " + one;
+		      }
+		         else if(two > one & two > three && two > four)
+		         {
+		        	 output = "Highest is " + two; 
+		         }
+		           
+		         else if(three > one && three > two && three > four)
+		         {
+		        	  output = "Highest is " + three;
+		         }
+		            
+		      else if(four > one && three > two && three > four)
+		      {
+		    	  output = "Highest is " + four;
+		      }
+		      JOptionPane.showMessageDialog (null,output);
+		      System.out.println(output);
 		}
 	
 	}

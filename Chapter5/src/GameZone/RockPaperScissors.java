@@ -21,7 +21,7 @@
 			
 			do 
 			{
-				System.out.println("\n1- Rock\n2- Paper\n3- Scissors.");
+				System.out.println("\n1- Rock\n2- Paper\n3- Scissors");
 				playerChoice = input.nextInt();
 				computerChoice = (int)(Math.random() * 3 + 1);
 				
@@ -73,7 +73,7 @@
 					}
 					else if(playerChoice == 3 && computerChoice == 2)
 					{
-						result = "Scissors can beat rock. You win";
+						result = "Scissors can beat paper. You win";
 						countWins++;
 					}
 					else if(playerChoice == 3 && computerChoice == 3)

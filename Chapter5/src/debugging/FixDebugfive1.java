@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 		      usersChoiceString = JOptionPane.showInputDialog(null,
 		         "Order please/n1 - Burger\2 - Hotdog" +
 		         "\n3 - Grilled cheese\n4 - Fish sandwich");
-		      usersChoice= Integer.parseDouble(usersChoiceString);
+		      usersChoice= Integer.parseInt(usersChoiceString);
 		      if(usersChoice == 1 || usersChoice == 2)
 		      {
 		    	
